@@ -1,0 +1,154 @@
+
+
+div.cabecalho{
+    max-width: 100%;
+    height: 219px;
+    margin: 0%;
+    background-image: linear-gradient(to top, rgb(0, 56, 22), rgb(0, 197, 115));
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+body{
+    margin: 0%;
+    color: white;    
+}
+
+h1{
+    margin: 0%;
+    cursor: default; 
+    font-size: 40px; 
+}
+
+#decima{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav > #listadecima{
+    display: flex;
+    list-style: none;
+}
+
+#li{
+    margin-right: 10px;
+    margin-left: 1px;
+    padding: 11px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+#li:hover{
+    background-color: rgb(0, 197, 115);
+    color: rgb(0, 56, 22);
+    border-radius: 2px;
+    transition: 0.9s;
+    border-bottom-color: brown;
+    border-bottom-style: initial;
+}
+
+#subtitulo{
+    color: rgb(0, 56, 22);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corpo{
+    margin: 0% 15% 0% 15%;  
+    box-shadow: 2px 8px 20px rgb(163, 163, 163);
+    border-radius: 0px 0px 20px 20px;
+}
+
+#tnormal{
+    color: black;
+    text-indent: 30px;
+    text-align: justify;
+    margin: 10px 20px 10px 20px;  
+}
+
+h3{
+    color: rgb(0, 100, 40);
+    background-image: linear-gradient(to right, rgb(99, 170, 99), white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imagem{
+    margin: 0 23% 0 23%;
+}
+
+div.video{
+    background-color: darkgreen;
+    margin: 0px 0px 30px 0px;
+    padding: 42px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+article{
+    color: black;
+    background-color: rgb(139, 194, 143);
+    border-radius: 20px;
+    height: 400px;
+    max-height: 700px;
+}
+
+ul#listadebaixo > li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#utmp{
+    margin-bottom: 0;
+}
+
+h4{
+    background-color: rgb(0, 128, 32);
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+    color: white;
+}
+
+ul#listadebaixo{
+    columns: 2;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+#lista{
+    text-indent: 20px;
+    margin: 0;
+}
+
+#utmp{
+    text-indent: 20px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(76, 204, 127);
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    margin-right: 0;
+}

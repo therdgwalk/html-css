@@ -1,0 +1,72 @@
+.celular{
+    height: 500px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 70px;
+    border: 5px solid rgb(255, 0, 98);
+}
+
+body{
+    width: 1000px;
+}
+
+#pri{
+    margin-right: 0px;
+    margin-left: 3px;
+    border-radius: 7px;
+}
+
+#pri:hover{
+    background-color: rgb(92, 92, 92);
+    transition: 0.4s;
+}
+input{
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    border: none;
+    
+}
+
+.atalho{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px white;
+}
+
+#sec{
+    margin: 10px 20px 0px 20px;
+    border: solid 1px white;
+}
+
+h2{
+    margin: 0%;
+    margin-left: 35px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr{
+    border-color: rgb(29, 29, 29);
+}
+p{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulos{
+    display: flex;
+    margin: 0;
+}
+
+.titulos > #rec{
+    margin-right: 5px;
+}

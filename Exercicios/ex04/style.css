@@ -1,0 +1,210 @@
+div.principal{
+    height: 60px;
+    width: 4px;
+    background-image: linear-gradient(to top, blueviolet, purple);
+    border-radius: 35px;
+    border: 2px solid rgb(255, 68, 193);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+header{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.301);
+    font-family: idroid;
+}
+
+header > h1{
+    margin-left: 10px;
+    margin-right: 510px;
+    margin-bottom: 0px;
+}
+
+header > h1:hover{
+    letter-spacing: 1px;
+    transition: 0.7s;
+    cursor: default;
+    color: purple;
+}  
+
+abbr{
+    text-decoration: none;
+}
+
+body{
+    margin: 0%;
+}
+ul.menu{
+    display: flex;
+    list-style: none;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 0px;
+
+}
+
+ul.menu > li{
+    margin-right: 20px;
+}
+
+ul.menu > li:hover{
+    color: blueviolet;
+}
+
+div.opcoes{
+    width: 15%;
+    height: 563px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    box-shadow:  black;
+    align-items: stretch;
+}
+
+.opcoes > h2{
+    margin: 10px 10px 10px 10px;
+    cursor: default;
+}
+
+.opcoes > ul{
+    padding-left: 0px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+hr{
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.opcoes > ul > li{
+    margin: 0%;
+    list-style-type: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.opcoes > ul > li:hover{
+    background-color: blueviolet;
+    transition: 0.2s;
+    color: white;
+}
+
+.conteudo{
+    display: flex;
+}
+
+
+
+.produtos1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+    text-align: justify;
+    padding-top: 0%;
+}
+
+li > #ok{
+    background-color: rgb(252, 223, 255);
+    padding: 5px;
+    margin-bottom: 0px;
+    color: black;
+    border-color: blueviolet;
+}
+
+.produto{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-top: 0%;
+   
+}
+
+.amostra{
+    display: flex;
+    list-style-type: none;
+}
+
+.amostra > #sp1 > #preco{
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.amostra > #sp1 > p{
+    margin-top: 0%;
+}
+
+.amostra > #sp1 #okk{
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+#sp2 > button{
+    padding: 14px 80px 14px 80px;
+    margin-left: 27px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#sp2 > button:hover{
+    background-color: rgb(110, 37, 179);
+    scale: 1.1;
+    transition: 0.2s;
+}
+ 
+#sp1 > #sp3 > button{
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    border-color: blueviolet;
+    color: blueviolet;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#sp1 > #sp3 > button:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.4s;
+}
+
+#sp1 > #oqq{
+    padding: 10px;
+}
+
+#sp1 > hr{
+    width: 370px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sp1{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#btn{
+    padding: 10px 50px 10px 50px;
+    background-color: whitesmoke;
+    border-color: blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+}
+ #btn:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.4s;
+ }

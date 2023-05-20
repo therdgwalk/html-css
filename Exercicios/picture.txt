@@ -1,0 +1,6 @@
+<picture>
+    <source media="(max-width: 600px)" srcset="scoandsub.jpg" width="500px" type="image/jpg">
+    <source media="(max-width: 800px)" srcset="mkk.jpg" width="700px" type="image/jpg">
+    <source media="(max-width: 1000px)" srcset="sco.jpg" width="900px" type="image/jpg">
+    <img src="sub.jpg" alt="img" width="1200px">
+    </picture>
