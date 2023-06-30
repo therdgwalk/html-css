@@ -1,33 +1,62 @@
-div.principal{
-    height: 60px;
-    width: 4px;
-    background-image: linear-gradient(to top, blueviolet, purple);
-    border-radius: 35px;
-    border: 2px solid rgb(255, 68, 193);
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
 
 header{
     display: flex;
-    padding: 0px 0px 0px 0px;
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.301);
     font-family: idroid;
+    max-width: 100%;
+    min-width: auto;
+    height: min-content;
+    padding: 10px 15px 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
-header > h1{
-    margin-left: 10px;
-    margin-right: 510px;
-    margin-bottom: 0px;
+nav{
+    margin: 0;
+    min-width: 20px;
+}
+
+#icon{
+    padding-left: 30px;
+    margin-right: 0;
+}
+.container-input {
+    position: relative;
+  }
+  
+.input {
+    width: 130px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+}
+  
+.container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+  
+.input:focus {
+    opacity: 1;
+    width: 130px;
+}
+    
+header > h1 {
+    margin: 0;
+    color: purple;
+    min-width: 10px;
 }
 
 header > h1:hover{
-    letter-spacing: 1px;
-    transition: 0.7s;
     cursor: default;
-    color: purple;
 }  
 
 abbr{
@@ -37,48 +66,21 @@ abbr{
 body{
     margin: 0%;
 }
-ul.menu{
+
+
+.menu{
     display: flex;
-    list-style: none;
-    margin-top: 27px;
-    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#icon{
     cursor: pointer;
-    padding: 0px;
-
 }
 
-ul.menu > li{
-    margin-right: 20px;
-}
-
-ul.menu > li:hover{
-    color: blueviolet;
-}
-
-div.opcoes{
-    width: 15%;
-    height: 563px;
-    border: 1px solid rgba(0, 0, 0, 0.281);
-    background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    box-shadow:  black;
-    align-items: stretch;
-}
-
-.opcoes > h2{
-    margin: 10px 10px 10px 10px;
-    cursor: default;
-}
-
-.opcoes > ul{
-    padding-left: 0px;
-    cursor: pointer;
-    margin-top: 0px;
-}
 hr{
-    margin: 0;
-    margin-bottom: 0px;
+    margin: 10px;
 }
 
 .opcoes > ul > li{
@@ -86,6 +88,7 @@ hr{
     list-style-type: none;
     border-radius: 4px;
     padding: 10px;
+    outline: 1px grey;
 }
 
 .opcoes > ul > li:hover{
@@ -96,13 +99,13 @@ hr{
 
 .conteudo{
     display: flex;
+    justify-content: center;
+
 }
-
-
 
 .produtos1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 60px;
+    margin: auto;
     text-align: justify;
     padding-top: 0%;
 }
@@ -115,17 +118,19 @@ li > #ok{
     border-color: blueviolet;
 }
 
-.produto{
-    font-size: 25px;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    padding-top: 0%;
-   
+h3{
+    font-size: 30px;
+    padding: 4px;
 }
 
 .amostra{
     display: flex;
     list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: min-content;
 }
 
 .amostra > #sp1 > #preco{
@@ -142,6 +147,10 @@ li > #ok{
     width: 50px;
     font-size: 20px;
     color: blueviolet;
+}
+
+#ufg{
+    padding: 10px -1px 10px 100px;
 }
 
 #sp2 > button{
@@ -162,6 +171,9 @@ li > #ok{
     scale: 1.1;
     transition: 0.2s;
 }
+#sp2 > button:active{
+    background-color: rgb(87, 28, 143);
+}
  
 #sp1 > #sp3 > button{
     cursor: pointer;
@@ -179,9 +191,12 @@ li > #ok{
     color: white;
     transition: 0.4s;
 }
+#sp1 > #sp3 > button:active{
+    background-color: rgb(87, 28, 143);
+}
 
 #sp1 > #oqq{
-    padding: 10px;
+    padding: 9px;
 }
 
 #sp1 > hr{
@@ -192,8 +207,11 @@ li > #ok{
 
 #sp1{
     border: 1px solid rgba(0, 0, 0, 0.295);
-    padding: 20px;
+    padding: 10px;
     border-radius: 4px;
+    max-width: max-content;
+    min-width: min-content;
+    margin-left: 40px;
 }
 
 #btn{
@@ -203,8 +221,42 @@ li > #ok{
     border-radius: 15px;
     cursor: pointer;
 }
- #btn:hover{
+#btn:hover{
     background-color: blueviolet;
     color: white;
     transition: 0.4s;
  }
+
+h4{
+    margin: 40px 40px 40px 70px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline blueviolet 3px;
+ }
+#sep{
+    margin: 40px 0px 40px 0px;
+ }
+
+.ukk{
+    display: flex;
+    margin-left: 70px;
+    place-items: space-between;
+    flex-wrap: wrap;
+}
+
+#card > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+ }
+
+#card{
+    box-shadow: 0px 0px 7px rgb(182, 182, 182);
+    margin: 3px;
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+ }
+ #card > p:hover{
+    color: blueviolet;
+ }
+

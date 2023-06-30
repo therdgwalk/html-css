@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, rgb(154, 69, 235), rgb(63, 0, 100));
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ header > nav > h1{
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul > li{
+    margin-right: 40px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+ul > li:hover{
+    color: rgb(202, 201, 201);
+    transition: 0.3s;
+}
